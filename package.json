@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "less": "^4.2.1"
+  },
+  "dependencies": {
+    "connorbrightman.github.io": "file:"
   }
 }
