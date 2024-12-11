@@ -3,6 +3,7 @@
 body {
     font-family: @main-font;
     background: @body-colour;
+    position: relative;
 }
 
 
@@ -17,6 +18,7 @@ body {
 
 .layla-text {
     animation: color-change 1s infinite;
+    font-size: 60px;
 }
 
 @keyframes color-change {
@@ -53,4 +55,17 @@ body {
     img {
         width: 30px;
     }
+}
+
+.roblox {
+    position: absolute;
+    animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+    0% { top: 0; left: 0; }
+    25% { top: 25%; left: 80%; }
+    50% { top: 50%;left: 0; }
+    75% { top: 30%; left: 50%; }
+    100% { top: 0; left: 0; }
 }
