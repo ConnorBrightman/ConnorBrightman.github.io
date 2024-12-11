@@ -1,2 +1,1 @@
-"# ConnorBrightman.github.io" 
-Welcome!
+Some text written on my local computer
