@@ -1,0 +1,17 @@
+{
+  "name": "connorbrightman.github.io",
+  "version": "1.0.0",
+  "description": "Some text written on my local computer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "lessc src/less/styles.less dist/css/styles.css",
+    "watch-less": "less-watch-compiler . less src/less/styles.less dist/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.1"
+  }
+}
