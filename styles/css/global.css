@@ -1071,3 +1071,18 @@ body {
 .hero h1 {
   color: #010007;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.logo h1 {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Poppins", serif;
+  color: black;
+}
+.logo img {
+  width: 50px;
+}
