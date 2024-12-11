@@ -1055,3 +1055,23 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
 }
+.layla-text {
+  animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: #26ff00;
+  }
+  75% {
+    color: #fffb00;
+  }
+  100% {
+    color: red;
+  }
+}

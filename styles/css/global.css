@@ -1055,8 +1055,29 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
 }
+.layla-text {
+  animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: #26ff00;
+  }
+  75% {
+    color: #fffb00;
+  }
+  100% {
+    color: red;
+  }
+}
 body {
   font-family: "Inter", sans-serif;
+  background: #0c0c0c;
 }
 .container {
   max-width: 1600px;
@@ -1065,8 +1086,29 @@ body {
 .wrapper {
   padding: 20px;
 }
+.layla-text {
+  animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: #26ff00;
+  }
+  75% {
+    color: #fffb00;
+  }
+  100% {
+    color: red;
+  }
+}
 .hero {
-  height: 100vh;
+  height: 600px;
+  background-image: url(../../assets/img/raccoon-rave.gif);
 }
 .hero h1 {
   color: #010007;
@@ -1078,11 +1120,11 @@ body {
   text-decoration: none;
 }
 .logo h1 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 900;
   font-family: "Poppins", serif;
   color: black;
 }
 .logo img {
-  width: 50px;
+  width: 30px;
 }
