@@ -60,15 +60,6 @@ body {
     color: var(--text-colour);
 }
 
-.header {
-    width: 100%;
-    padding: 20px 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
 .btn {
     background-color: var(--btn-bg-colour);
     color: var(--btn-text-colour);
@@ -107,30 +98,32 @@ body {
     text-decoration: none;
 }
 
+.header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
 .logo {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text-colour);
     text-decoration: none;
     font-weight: 600;
 }  
 
-#navbar a {
- font-size: 16px;
- color: var(--text-colour);
- text-decoration: none;
- font-weight: 500;
- margin-left: 35px;
-
-}
 
 .nav-list {
     display: flex; 
     list-style-type: none;
-    gap: 10px;
+    gap: 5px;
 }
 
 .nav-list li a {
     text-decoration: none;
+    font-size: 12px;
     color: var(--text-colour);
 }
 
@@ -141,8 +134,8 @@ body {
 }
 
 #dark-mode-toggle {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     padding: 0;
     border-radius: 50%;
     background-color: (var(--base-variant));
@@ -153,6 +146,7 @@ body {
 
 #dark-mode-toggle svg {
     fill: var(--text-colour);
+    height: 15px;
 }
 
 #dark-mode-toggle svg:last-child {
@@ -228,14 +222,6 @@ body {
         font-weight: 600;
     }  
     
-    #navbar a {
-     font-size: 18px;
-     color: var(--text-colour);
-     text-decoration: none;
-     font-weight: 500;
-     margin-left: 35px;
-    
-    }
     
     .nav-list {
         display: flex; 
@@ -244,6 +230,7 @@ body {
     }
     
     .nav-list li a {
+        font-size: 16px;
         text-decoration: none;
         color: var(--text-colour);
     }
@@ -266,6 +253,7 @@ body {
     }
     
     #dark-mode-toggle svg {
+        height: 24px;
         fill: var(--text-colour);
     }
     
